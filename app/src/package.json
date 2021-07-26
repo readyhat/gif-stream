@@ -1,0 +1,18 @@
+{
+  "name": "gif2stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Leek",
+  "license": "ISC",
+  "dependencies": {
+    "event-stream": "^4.0.1",
+    "gif-extract-frames": "^1.0.2",
+    "kafkajs": "^1.15.0",
+    "streamifier": "^0.1.1"
+  }
+}
